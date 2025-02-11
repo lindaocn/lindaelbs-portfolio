@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+    .introduction{
+        flex-wrap: wrap;
+    }
+
+/* auf alle diese Margin anwenden:
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    */
+
+body h1{
+    font-size: 40px;
+}
+
+body h2{
+    font-size: 32px;
+}
+
+body h3{
+    font-size: 24px;
+}
+
+}
+
+    
+
+
+/* Tablet Ansicht (600px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+}

@@ -1,0 +1,28 @@
+/* Schriften - Standards*/
+h1{
+    font-family: 'Inter';
+    font-size: 54px;
+}
+
+h2{
+    font-family: 'Inter';
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: 'Inter';
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Inter';
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(/Users/lindaelbs/Documents/lindaelbs-portfolio/Interfont.ttf) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
