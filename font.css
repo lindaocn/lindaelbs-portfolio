@@ -22,7 +22,7 @@ p{
 
 @font-face {
     font-family: 'Inter';
-    src: url(Interfont.ttf) format('woff2');
+    src: url(Interfont.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
 }
