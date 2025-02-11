@@ -22,7 +22,7 @@ p{
 
 @font-face {
     font-family: 'Inter';
-    src: url(/Users/lindaelbs/Documents/lindaelbs-portfolio/Interfont.ttf) format('woff2');
+    src: url(Interfont.ttf) format('woff2');
     font-weight: normal;
     font-style: normal;
 }
