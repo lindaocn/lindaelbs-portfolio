@@ -189,6 +189,7 @@
     text-align: center;
     color: white;
     margin-top: 216px;
+    padding: 150px;
 }
 
 .university-img{
@@ -233,7 +234,10 @@
 .network-text{
     text-align: center;
     background-color: #026DEB;
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
     color: white;
     border-radius: 10px;
 }
@@ -248,7 +252,10 @@
 .goal-text{
     text-align: center;
     background-color: #0C41FB;
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
     color: white;
     border-radius: 10px;
     width: 100%;

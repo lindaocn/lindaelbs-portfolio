@@ -9,6 +9,11 @@
     background-color: #0C41FB;
 }
 
+  .header{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .x {
     align-items: end;
     display: flex;
@@ -59,6 +64,14 @@
   /*Hamburger Menu done */
 
 
+  .arrow-slider{
+    position: fixed;
+    z-index: 500;
+    bottom: 2%;
+    left: 33%;
+    width: 64px;
+  }
+
   .header-pages {
     transform: scaleY(0);
     transform-origin: top;
@@ -70,10 +83,10 @@
     justify-content: center;
     gap: 20px;
     background-color: #64C1FF;
-    padding: 20px;
+    padding: 40px;
     position: absolute;
     top: 140px;
-    left: 50px;
+    left: 30px;
     z-index: 1000;
     border-radius: 10px;
 }

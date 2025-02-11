@@ -11,18 +11,189 @@ body{
     */
 
 body h1{
-    font-size: 40px;
+    font-size: 36px;
 }
 
 body h2{
-    font-size: 32px;
+    font-size: 30px;
 }
 
 body h3{
     font-size: 24px;
 }
 
+p{
+    font-size: 18px;
 }
+
+/*Introduction*/
+
+    .introduction{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 24px;
+    }
+
+    .words{
+        text-align: center;
+    }
+
+    .waves-img img{
+        width: 300px;
+    }
+
+/*About me*/
+
+    #about-linda{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 48px;
+    }
+
+    .presentation-1{
+        gap: 32px;
+        padding-bottom: 32px;
+    }
+
+    .about-linda{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        width: 96px;
+        justify-content: center;
+    }
+
+    .student-portrait{
+        row-gap: 32px;
+        margin-bottom: 48px;
+        gap: 186px;
+    }
+
+    .student{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        align-self: center;
+        color: white;
+        background-color: #026DEB;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .country{
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .portrait img{
+        width: 176px;
+    }
+
+    .portrait{
+        position: absolute;
+        z-index: 200;
+        bottom: 33%;
+        left: 42%;
+        height: fit-content;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .waves-blue{
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    .waves-blue img{
+        width: 400px;
+    }
+
+/*Coding passion*/
+
+    .passion{
+        flex-wrap: wrap;
+        margin-top: 180px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .passion-heading{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 18px;
+        padding-right: 18px;
+        width: 250px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .school-info{
+        margin-top: 32px;
+        height: 200px;
+        width: 200px;
+        padding:80px;
+    }
+
+    .school-img,
+    .university-img{
+        width: 150px;
+    }
+
+    .university-info{
+        padding:80px;
+        height: 200px;
+        width: 200px;
+        margin-top: 32px;
+    }
+
+    .interests{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 140px;
+    }
+
+    .cv{
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+
+    .network-icon{
+        width: 100px;
+        z-index: 200;
+        bottom: 90%;
+        left: 50%;
+        padding: 27px;
+    }
+
+    .network-text,
+    .goal-text{
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .goal-text{
+        margin-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .cv button{
+        font-size: 18px;
+        width: 200px;
+        top: 93%;
+    }
+
+}
+
 
     
 
