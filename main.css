@@ -1,3 +1,27 @@
+/* Schriften - Standards*/
+@font-face {
+    font-family: 'Inter';
+    src: url('Interfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
 .introduction{
     display: flex;
     margin-top: 80px;
@@ -583,7 +607,7 @@ button a{
     color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
 }
 
 .contact-form h2 {
@@ -607,7 +631,7 @@ button a{
     border: 1px solid #64C1FF;
     border-radius: 5px;
     font-size: 16px;
-    font-family: 'Inter';
+    font-family: 'Inter, sans-serif;
 }
 
 .contact-form button {
