@@ -389,7 +389,7 @@ button a{
 }
 
 .pro-introduction{
-    margin-top: 120px;
+    margin-top: 200px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 96px;
@@ -401,6 +401,11 @@ button a{
     color: #026DEB;
 }
 
+.pro-introduction p{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
 .first-projects{
     display: flex;
     position: relative;
@@ -409,8 +414,6 @@ button a{
     margin-bottom: 96px;
     gap: 120px;
     justify-content: center;
-
-    flex-wrap: wrap;
 }
 
 .bloc{
@@ -484,31 +487,40 @@ button a{
     gap: 120px;
 
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: 94%;
 
 }
 
 .logo-blog{
     display: flex;
-    width: 240px;
+    width: 370px;
+    height: 286px;
     background-color: #64C1FF;
     border-radius: 10px;
     padding: 40px;
     padding-right: 80px;
     padding-left: 80px;
     align-items: center;
+
 }
 
 .logo-blog img{
     width: 100%;
+    height: 100%;
 }
 
 .text-blog{
     background-color: #026DEB;
     color: white;
     text-align: center;
-    padding: 96px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 50%;
     border-radius: 10px;
+
 }
 
 .second-project button{
@@ -545,7 +557,7 @@ button a{
 
 .dvbj-image{
     display: flex;
-    width: 400px;
+    width: 350vh;
     background-color: #64C1FF;
     border-radius: 10px;
     padding: 40px;
@@ -558,7 +570,7 @@ button a{
 
 .jupa-image{
     display: flex;
-    width: 400px;
+    width: 350vh;
     background-color: #64C1FF;
     border-radius: 10px;
     padding: 40px;
@@ -631,7 +643,7 @@ button a{
     border: 1px solid #64C1FF;
     border-radius: 5px;
     font-size: 16px;
-    font-family: 'Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .contact-form button {

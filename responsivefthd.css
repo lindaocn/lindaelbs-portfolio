@@ -67,8 +67,8 @@
   .arrow-slider{
     position: fixed;
     z-index: 500;
-    bottom: 2%;
-    left: 33%;
+    bottom: 5%;
+    left: 74%;
     width: 64px;
   }
 
@@ -83,29 +83,105 @@
     justify-content: center;
     gap: 20px;
     background-color: #64C1FF;
-    padding: 40px;
     position: absolute;
     top: 140px;
-    left: 30px;
+    left: 7px;
     z-index: 1000;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 60px;
+    width: 85%;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .header-list{
     display: none;
     display: flex;
     flex-direction: column;
-    padding-right: 64px;
+    padding-right: 0px;
+    gap: 25px
 }
 
+
+  .button-header {
+    padding-left: 35px;
+    align-self: start;
+  }
+
     .contact-button {
-        width: 100%;
-        text-align: center;
+      display: flex;
+      width: 100%;
+      text-align: left;
+      padding-left: 20px;
+      padding-right: 20px;
+
     }
 
     .header-pages.open {
         display: flex;
     }
+
+    /*Footer*/
+
+    .footer{
+      background-color: #64C1FF;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      border-radius: 10px;
+      padding: 20px;
+  
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+  }
+
+    .social-footer{
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0px;
+      width: 100%;
+    }
+
+    .social-footer img{
+      width: 64px;
+    }
+
+    .footer-ri{
+      flex-wrap: wrap;
+      gap: 64px;
+    }
+
+    .footer-logo{
+      padding-left: 24px;
+      width: 125px;
+    }
+
+    .footer-pages{
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: right;
+      gap: 32px;
+      margin-right: 0px;
+    }
+
+    .footer-pages a{
+      font-size: 25px;
+    }
+
+    .copyright{
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    .copyright a{
+      font-size: 25px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -117,6 +193,8 @@
 
 /* Tablet Ansicht (600px - 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
+
+      /*still need to be modified*/
 
     .x{
         display: none;

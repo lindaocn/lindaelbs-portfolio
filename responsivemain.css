@@ -1,206 +1,430 @@
 @media (max-width: 600px) {
-    .introduction{
-        flex-wrap: wrap;
-    }
-
-/* auf alle diese Margin anwenden:
-body{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-    */
-
-body h1{
-    font-size: 36px;
-}
-
-body h2{
-    font-size: 30px;
-}
-
-body h3{
-    font-size: 24px;
-}
-
-p{
-    font-size: 18px;
-}
-
-/*Introduction*/
-
-    .introduction{
-        margin-top: 40px;
-        margin-bottom: 40px;
-        margin-left: 50px;
-        margin-right: 50px;
-        gap: 24px;
-    }
-
-    .words{
-        text-align: center;
-    }
-
-    .waves-img img{
-        width: 300px;
-    }
-
-/*About me*/
-
-    #about-linda{
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-bottom: 48px;
-    }
-
-    .presentation-1{
-        gap: 32px;
-        padding-bottom: 32px;
-    }
-
-    .about-linda{
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 25px;
-        padding-top: 25px;
-        width: 96px;
-        justify-content: center;
-    }
-
-    .student-portrait{
-        row-gap: 32px;
-        margin-bottom: 48px;
-        gap: 186px;
-    }
-
-    .student{
-        display: flex;
-        justify-content: center;
-        width: fit-content;
-        align-self: center;
-        color: white;
-        background-color: #026DEB;
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 25px;
-        padding-top: 25px;
-    }
-
-    .country{
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 25px;
-        padding-top: 25px;
-    }
-
-    .portrait img{
-        width: 176px;
-    }
-
-    .portrait{
-        position: absolute;
-        z-index: 200;
-        bottom: 33%;
-        left: 42%;
-        height: fit-content;
-        display: flex;
-        align-items: flex-end;
-    }
-
-    .waves-blue{
-        margin-top: 48px;
-        margin-bottom: 48px;
-    }
-
-    .waves-blue img{
-        width: 400px;
-    }
-
-/*Coding passion*/
-
-    .passion{
-        flex-wrap: wrap;
-        margin-top: 180px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .passion-heading{
-        padding-bottom: 5px;
-        padding-top: 5px;
-        padding-left: 18px;
-        padding-right: 18px;
-        width: 250px;
-
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .school-info{
-        margin-top: 32px;
-        height: 200px;
-        width: 200px;
-        padding:80px;
-    }
-
-    .school-img,
-    .university-img{
-        width: 150px;
-    }
-
-    .university-info{
-        padding:80px;
-        height: 200px;
-        width: 200px;
-        margin-top: 32px;
-    }
-
-    .interests{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 140px;
-    }
-
-    .cv{
-        margin-left: 20px;
-        margin-right: 20px; 
-    }
-
-    .network-icon{
-        width: 100px;
-        z-index: 200;
-        bottom: 90%;
-        left: 50%;
-        padding: 27px;
-    }
-
-    .network-text,
-    .goal-text{
-        padding-bottom: 25px;
-        padding-top: 25px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .goal-text{
-        margin-top: 48px;
-        padding-bottom: 48px;
-    }
-
-    .cv button{
-        font-size: 18px;
-        width: 200px;
-        top: 93%;
-    }
-
-}
-
-
+    @media (max-width: 600px) {
+        .introduction{
+            flex-wrap: wrap;
+        }
     
+    /* auf alle diese Margin anwenden:
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+        */
+    
+    body h1{
+        font-size: 36px;
+    }
+    
+    body h2{
+        font-size: 30px;
+    }
+    
+    body h3{
+        font-size: 24px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    /*Introduction*/
+    
+        .introduction{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 50px;
+            margin-right: 50px;
+            gap: 24px;
+        }
+    
+        .words{
+            text-align: center;
+        }
+    
+        .waves-img img{
+            width: 300px;
+        }
+    
+    /*About me*/
+    
+        #about-linda{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 48px;
+        }
+    
+        .presentation-1{
+            gap: 32px;
+            padding-bottom: 32px;
+        }
+    
+        .about-linda{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+            width: 96px;
+            justify-content: center;
+        }
+    
+        .student-portrait{
+            row-gap: 32px;
+            margin-bottom: 48px;
+            gap: 186px;
+        }
+    
+        .student{
+            display: flex;
+            justify-content: center;
+            width: fit-content;
+            align-self: center;
+            color: white;
+            background-color: #026DEB;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+    
+        .country{
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+    
+        .portrait img{
+            width: 176px;
+        }
+    
+        .portrait{
+            position: absolute;
+            z-index: 200;
+            bottom: 33%;
+            left: 42%;
+            height: fit-content;
+            display: flex;
+            align-items: flex-end;
+        }
+    
+        .waves-blue{
+            margin-top: 48px;
+            margin-bottom: 48px;
+        }
+    
+        .waves-blue img{
+            width: 400px;
+        }
+    
+    /*Coding passion*/
+    
+        .passion{
+            flex-wrap: wrap;
+            margin-top: 180px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+        .passion-heading{
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 18px;
+            padding-right: 18px;
+            width: 250px;
+    
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        .school-info{
+            margin-top: 32px;
+            height: 200px;
+            width: 200px;
+            padding:80px;
+        }
+    
+        .school-img,
+        .university-img{
+            width: 150px;
+        }
+    
+        .university-info{
+            padding:80px;
+            height: 200px;
+            width: 200px;
+            margin-top: 32px;
+        }
+    
+        .interests{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 140px;
+        }
+    
+        .cv{
+            margin-left: 20px;
+            margin-right: 20px; 
+        }
+    
+        .network-icon{
+            width: 100px;
+            z-index: 200;
+            bottom: 90%;
+            left: 50%;
+            padding: 27px;
+        }
+    
+        .network-text,
+        .goal-text{
+            padding-bottom: 25px;
+            padding-top: 25px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    
+        .goal-text{
+            margin-top: 48px;
+            padding-bottom: 48px;
+        }
+    
+        .cv button{
+            font-size: 18px;
+            width: 200px;
+            top: 93%;
+        }
 
+        .internship{
+            margin-left: 20px;
+            margin-right: 20px; 
+            margin-top: 176px;
+        }
+
+        .search-icon{
+            width: 100px;
+            bottom: 83%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .search-icon img{
+            width: 100%;
+        }
+
+        .search-text{
+            margin-left: 0px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .social-contact{
+            margin-left: 20px;
+            margin-right: 20px; 
+            margin-top: 32px;
+            margin-bottom: 0px;
+            gap: 40px;
+            align-items: center;
+            padding: 16px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .social-icons img{
+            width: 70px;
+        }
+
+        .collage{
+            height: 50vh;
+        }
+
+        .pro-introduction{
+            margin-top: 160px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 160px;
+        }
+
+        .pro-introduction p{
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-bottom: 96px;
+        }
+
+        .first-projects{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+            gap: 175px;
+        }
+
+        .pro-icon{
+            width: 96px;
+            padding-bottom: 16px;
+            padding-top: 16px;
+            padding-right: 20px;
+            padding-left: 20px;
+            top: -30%;
+        }
+
+        .pro-text-bloc{
+            margin-top: 0px;
+            padding-right: 32px;
+            padding-left: 32px;
+            padding-top: 48px;
+            padding-bottom: 48px;
+            margin-bottom: 48px;
+        }
+
+        .bloc button{
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 18px;
+            width: 70%;
+            top: 77%;
+        }
+
+        .second-project{
+            flex-wrap: wrap;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 75px;
+            margin-bottom: 120px;
+            gap: 32px;
+            justify-content: center;
+            width: 90%;
+        }
+
+        .logo-blog{
+            width: 100%;
+            padding-bottom: 16px;
+            padding-top: 16px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .text-blog{
+            padding: 50px;
+            width: 100%;
+        }
+
+        .second-project button{
+            position: absolute;
+            z-index: 200;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 97%;
+            width: 63%;
+            font-size: 18px;
+
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+
+        .third-project{
+            flex-wrap: wrap;
+            margin-left: 20px;
+            margin-right: 20px;
+            gap: 32px;
+            margin-bottom: 80px;
+            justify-content: center;
+        }
+
+        .fourth-project{
+            flex-direction: column-reverse;
+            margin-left: 20px;
+            margin-right: 20px;
+            gap: 32px;
+            margin-bottom: 80px;
+            justify-content: center;
+        }
+
+        .asso-text{
+            padding-bottom: 32px;
+            padding-top: 32px;
+            padding-left: 48px;
+            padding-right: 48px;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .asso-text button{
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+            width: 100%;
+        }
+
+        .dvbj-image,
+        .jupa-image{
+            width: 35vh;
+        }
+
+        #contact-me{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+    }
+    
+    /* Tablet Ansicht (600px - 1024px) */
+    @media (min-width: 601px) and (max-width: 1024px) {
+    
+    }
+    
+    
+    /* Responsive Terms of Use */
+    @media (max-width: 600px) {
+        .termsofuse {
+            margin-bottom: 40px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+        }
+    
+        .termsofuse h2{
+            font-size: 32px;
+        }
+    
+        .termsofuse h3{
+            font-size: 24px;
+        }
+    
+        .cr-site {
+            flex-direction: column;
+            gap: 40px;
+        }
+    
+        .cr-left{
+            gap: 40px;
+        }
+    
+        .cr-right {
+            padding: 20px;
+        }
+    
+        .cr-right p{
+            font-size: 18px;
+        }
+    
+        .site-owner,
+        .site-hosting {
+            padding: 16px;
+            font-size: 18px;
+        }
+    }
+}
 
 /* Tablet Ansicht (600px - 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
-
+        /*still need to be modified*/
 }
 
 
